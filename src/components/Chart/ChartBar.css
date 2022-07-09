@@ -1,5 +1,7 @@
 .chart-bar {
    height: 100%;
+   max-width: calc(100% / var(--chartbars-number));
+   flex: 1 1 calc(100% / var(--chartbars-number));
    display: flex;
    flex-direction: column;
    align-items: center;
